@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd 
 import polarplot
 import songrecommendations
-SPOTIPY_CLIENT_ID = 'bd88fe788a574f64a9e8f9c13f71ade1'
-SPOTIPY_CLIENT_SECRET = 'd23195da77ba4d4c8531bc64ad14bf56'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 #SPOTIPY_REDIRECT_URL = 'your-app-redirect-url'
 
 auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID,client_secret=SPOTIPY_CLIENT_SECRET)
